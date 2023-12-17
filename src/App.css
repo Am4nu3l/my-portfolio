@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+
+.side-text{
+  
+     color: white;
+ font-family: 'Poppins', sans-serif;
+ font-weight: bolder;
+
+
+
+    
+}
+
+h2,h3,h6{
+     color: rgba(2, 67, 120, 0.893);
+
+     font-weight:bolder;
+}
+
+.side-left-con{
+    position: fixed;
+    height: 100vh;
+    padding: 0;
+  padding-top: 20px;
+    background-color: rgba(2, 67, 120, 0.893);
+}
+
+.side-right-con{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+    
+     
+}
+
+.hire-me-btn i{
+    margin-right: 10px;
+}
+.wel-img{
+margin-left: 60px;
+    border-radius: 50%;
+    height: 150px;
+    width: 60%;
+}
+.col-5 img{
+    width: 90%;
+    height: 100%;
+   border-radius:10px; 
+ 
+}
+.list-grp{
+    margin-top: 20px;
+    
+    display: flex;
+   
+    flex-direction: column;
+}
+.list-group-items {
+text-decoration: none;
+color: rgba(2, 67, 120, 0.893);
+font-weight: 700;
+}
+
+.menu-item{
+    
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:whitesmoke;
+}
+.menu-item:hover{
+    transform: scale(1.05);
+}
+.menu-item:hover{
+    transition:transform 0.3s ease-in-out;
+}
+.menu-item i{
+    margin-right: 10px;
+     color: rgba(2, 67, 120, 0.893);
+     
+}
+
+.btn{
+    
+    color:white ;
+    border-color:rgba(55, 0, 193, 0.893);
+}
+#section1{
+    margin-bottom: 30px;
+  
+    padding: 10px;
+     border-radius: 10px;
+}
+#section2{
+    margin-bottom: 50px;
+
+     padding: 10px;
+     border-radius: 10px;
+}
+#section3{
+     
+     padding: 10px;
+     border-radius: 10px;
+}
+.img-cls{
+    max-width: 540px;
+}
+ .card {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Add hover effect */
+    .card:hover {
+      transform: scale(1.3);
+    }
+   .cards {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Add hover effect */
+    .cards:hover {
+      transform: scale(1.05);
+    }
+.btn i{
+    margin-right: 10px;
+}
+.cards{
+    background-color: aliceblue;
+}
+.card-title{
+    background-color:  rgba(2, 67, 120, 0.893);
+    padding: 5px;
+    color: white;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card{
+    width: 15rem;
+}
+.progress-bar{
+    
+    width: 75%;
+}
+.card-img-top{
+    background-color: white;
+}
+
+.col i{
+   color: white;
+
+}
+.col i:hover{
+    transform: scale(1.3);
+}
+.col i:hover{
+    transition:transform 0.3s ease-in-out;
+}
+hr{
+  color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 10px;
+}
+
+
+.mk-center{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.my-intro{
+    text-align: center;
+     color: white;
+    font-weight: bold;
+}
